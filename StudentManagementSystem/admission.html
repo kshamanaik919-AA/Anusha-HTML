@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission - Sunrise Public School</title>
+    <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h2>Sunrise Public School</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </div>
+</div>
+
+<!-- Form Section -->
+<div class="form-container">
+    <h1>Student Admission Form</h1>
+    <form action="insert.php" method="POST" enctype="multipart/form-data">
+        <label>Full Name</label>
+        <input type="text" name="name" required>
+
+        <label>Date of Birth</label>
+        <input type="date" name="dob" required>
+
+        <label>Parent Name</label>
+        <input type="text" name="parent" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Contact Number</label>
+        <input type="text" name="contact" pattern="[0-9]{10}" placeholder="10-digit number" required>
+
+        <label>Class</label>
+        <select name="class" required>
+            <option value="">Select Class</option>
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+            <option value="4">4th</option>
+            <option value="5">5th</option>
+            <option value="6">6th</option>
+            <option value="7">7th</option>
+            <option value="8">8th</option>
+            <option value="9">9th</option>
+            <option value="10">10th</option>
+        </select>
+
+        <label>Address</label>
+        <textarea name="address" required></textarea>
+
+        <label>Upload Photo</label>
+        <input type="file" name="photo" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+</body>
+</html>
