@@ -112,6 +112,7 @@ StudentManagementSystem/
 ├── contact.html
 
 │
+
 ├── style.css
 
 ├── admission.css
@@ -121,6 +122,7 @@ StudentManagementSystem/
 ├── contact.css
 
 │
+
 ├── db.php
 
 ├── insert.php
@@ -132,7 +134,11 @@ StudentManagementSystem/
 ├── logout.php
 
 ├── contact_insert.php
+
 │
+
 ├── uploads/
+
 │
+
 └── README.md
