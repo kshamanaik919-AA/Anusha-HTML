@@ -104,20 +104,33 @@ After successful login, students can view:
 StudentManagementSystem/
 │
 ├── index.html
+
 ├── admission.html
+
 ├── login.html
+
 ├── contact.html
+
 │
 ├── style.css
+
 ├── admission.css
+
 ├── login.css
+
 ├── contact.css
+
 │
 ├── db.php
+
 ├── insert.php
+
 ├── login.php
+
 ├── dashboard.php
+
 ├── logout.php
+
 ├── contact_insert.php
 │
 ├── uploads/
