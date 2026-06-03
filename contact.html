@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Sunrise Public School</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h2>Sunrise Public School</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="admission.html">Admission</a>
+        <a href="login.html">Login</a>
+    </div>
+</div>
+
+<!-- Contact Form -->
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Have questions? Reach out to our admission department.</p>
+
+    <form action="contact_insert.php" method="POST">
+
+        <label>Full Name</label>
+        <input type="text" name="name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Contact Number</label>
+        <input type="text" name="contact" pattern="[0-9]{10}" placeholder="10-digit number" required>
+
+        <label>Message</label>
+        <textarea name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>Sunrise Public School, India</p>
+    <p>9876543210 | info@sunriseschool.com</p>
+</footer>
+
+</body>
+</html>
